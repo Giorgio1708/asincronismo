@@ -1,7 +1,7 @@
 /*El XMLHttpRequest me sirve para conectarme con la API's 
 agregagamos un require() porque requerimos ese elemento 
 usamos el .XMLHttpRequest para cumplir con su función, 
-que es interactuar con la api que nos va a ayudar a interactuar con otras API's*/
+que es interactuar con el http que nos va a ayudar a con servicios HTTP*/
 let XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
 
 let API ='https://rickandmortyapi.com/api/character/'

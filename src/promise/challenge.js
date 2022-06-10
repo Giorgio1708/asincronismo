@@ -4,7 +4,7 @@ const API = "https://rickandmortyapi.com/api/character/";
 fetchData(API)
 .then(data => {
     console.log(data.info.count);
-    return fetchData(`${API}${data.results[1].id}`)
+    return fetchData(`${API}${data.results[3].id}`)
 })
 .then(data => {
     console.log(data.name)
